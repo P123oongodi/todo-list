@@ -1,0 +1,127 @@
+ *{
+  margin: 0px;
+}
+.whole{
+  background-color: #ffeb3b63;
+    height: 642px;
+    text-align: center;
+
+}
+
+.title{
+  font-family: math;
+  padding: 10px;
+  background: linear-gradient(45deg, #fff900,#ffec07, #E64A19);
+  color: #5d8b5c;
+}
+
+.addplace{
+  display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 15px;
+}
+
+.addplaces{
+  display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    width: 25%;
+}
+
+.input{
+  height: 40px;
+    border-radius: 5px;
+    width: 250px;
+    border: 1px;
+    background: linear-gradient(87deg, #ffffff,#ffffff, #f6f8f6);
+    padding-left: 10px;
+    font-size: medium;
+    font-family: cursive;
+    font-weight: 500;
+    box-shadow: 1px 2px 4px 1px grey;
+}
+
+.button{
+  HEIGHT: 42px;
+  width: 42px;
+  border: 1px solid white;
+  border-radius: 40px;
+  background: linear-gradient(55deg, #101081,#57c15b, #020c00);
+  color: white;
+  font-size: medium;
+  background: #ef810e;
+  font-family: math;
+  text-align: center;
+  padding-top: 4px;
+  cursor: pointer;
+  box-shadow: 1px 2px 18px 2px #d7c8c8;
+}
+.button:hover{
+  background-color: #5a3106;
+  transition: 0.6s;
+  transform: scale(1.04);
+
+}
+.tilse{
+  /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    border: 1px solid #b4a4a4;
+    padding: 10px;
+    border-radius: 50px;
+    background: white;
+}
+.tile{
+  
+    background: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  
+}
+.tile:hover{
+  transition: 0.8s;
+  transform: scale(1.05);
+}
+.delete{
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+.text{
+  display: flex;
+  font-size: medium;
+  font-family: cursive;
+  font-weight: 500;
+}
+.width{
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.texts{
+  display: flex;
+  font-size: medium;
+  font-family: cursive;
+  font-weight: 500;
+  justify-content: center;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
